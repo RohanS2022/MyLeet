@@ -5,5 +5,5 @@
  */
 
 export const removeDuplicates = (nums) => {
-    return 1
+    return nums
 }
