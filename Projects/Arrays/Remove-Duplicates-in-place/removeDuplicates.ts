@@ -5,5 +5,17 @@
  */
 
 export const removeDuplicates = (nums) => {
-    return nums
+    if(nums.length === 0) return 0
+
+    let previousNumber = null
+    let index = 0
+    while (index < nums.length) {
+        if(nums[index] === previousNumber){
+            nums.splice(index, 1)
+        } else {
+            previousNumber = nums[index]
+            index = index + 1
+        }
+    }
+    return index
 }
