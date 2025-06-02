@@ -4,6 +4,6 @@
  * @return {number[]} - An array of numbers with no duplicates 
  */
 
-const removeDuplicates = (nums) => {
-    return null
+export const removeDuplicates = (nums) => {
+    return []
 }
